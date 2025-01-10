@@ -1,8 +1,37 @@
-# React + Vite
+# Flight Search Project (TripVenture)
+# Live Link: (https://gilded-quokka-6e1ccf.netlify.app/)
+# Used API: (http://localhost:3001/flights)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+The Flight Search Project is a responsive web application that allows users to search for flights, view flight details, and filter flights based on preferences like price range, class, airline, and transit amount. The app features an interactive UI for a seamless experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+- **Dynamic Flight Listings:** Displays flight options with detailed information, including departure/arrival times, baggage details, and transit information.
+- **Price Range Selector:** Adjustable slider to filter flights by price.
+- **Responsive Design:** Optimized for all devices, ensuring usability across desktops, tablets, and mobiles.
+
+---
+
+## Technologies Used
+- **Frontend:** React.js, Tailwind CSS, TypeScript.
+- **Icons and Libraries:** React-icons, MdAirplanemodeActive, FaLocationDot, BiSolidShoppingBags
+- **Styling:** Tailwind CSS utilities for responsive and modern design.
+
+---
+
+## Setup Instructions
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository-url>
+   cd flight-search
+
+2. **Install Dependencies:**
+   npm install
+4. **Start the Application:**
+   npm start
+   npm run dev
+   
+   
+
