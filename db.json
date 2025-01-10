@@ -20,7 +20,7 @@
       "to": "SIN",
       "departureTime": "2025-01-11T08:00:00",
       "arrivalTime": "2025-01-11T12:00:00",
-      "transitAmount": "1 stop",
+      "transitAmount": "1 Stop",
       "priceRange": "$150-$250",
       "flightClass": "Business"
     },
@@ -56,7 +56,7 @@
       "to": "SYD",
       "departureTime": "2025-01-14T07:00:00",
       "arrivalTime": "2025-01-14T17:00:00",
-      "transitAmount": "2 stop",
+      "transitAmount": "2 Stop",
       "priceRange": "$500-$700",
       "flightClass": "Private"
     },
@@ -68,7 +68,7 @@
       "to": "FRA",
       "departureTime": "2025-01-15T10:00:00",
       "arrivalTime": "2025-01-15T18:00:00",
-      "transitAmount": "1 stop",
+      "transitAmount": "1 Stop",
       "priceRange": "$600-$800",
       "flightClass": "Business"
     },
@@ -92,7 +92,7 @@
       "to": "LAX",
       "departureTime": "2025-01-17T20:00:00",
       "arrivalTime": "2025-01-18T06:00:00",
-      "transitAmount": "1 stop",
+      "transitAmount": "1 Stop",
       "priceRange": "$900-$1200",
       "flightClass": "First Class"
     },
@@ -116,7 +116,7 @@
       "to": "DOH",
       "departureTime": "2025-01-19T01:00:00",
       "arrivalTime": "2025-01-19T07:00:00",
-      "transitAmount": "1 stop",
+      "transitAmount": "1 Stop",
       "priceRange": "$300-$600",
       "flightClass": "Economy"
     }

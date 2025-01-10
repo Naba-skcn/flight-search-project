@@ -1,18 +1,18 @@
-import React, {useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { AiOutlineGlobal } from "react-icons/ai";
 import { HiOutlineBell } from "react-icons/hi2";
 
 const Navbar = () => {
-    const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'dark'); 
-    
+    const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'dark');
+
     useEffect(() => {
-        localStorage.setItem('theme', theme); 
+        localStorage.setItem('theme', theme);
         document.querySelector('html').setAttribute('data-theme', theme);
     }, [theme]);
 
     const handleToggle = () => {
-        setTheme(prevTheme => (prevTheme === 'dark' ? 'light' : 'dark')); 
+        setTheme(prevTheme => (prevTheme === 'dark' ? 'light' : 'dark'));
     };
 
     const navLinks = (
@@ -57,9 +57,9 @@ const Navbar = () => {
                     </svg>
                 </label>
                 <div className="navbar-end">
-                    <Link><button className="mr-4 text-orange-600"><AiOutlineGlobal size={20}/></button></Link>
+                    <Link><button className="mr-4 text-orange-600"><AiOutlineGlobal size={20} /></button></Link>
                     <Link><button className="mr-4 text-orange-600"><HiOutlineBell size={20} /></button></Link>
-                   <Link to="/login"><button className="btn btn-sm bg-orange-600 border-orange-600 text-white">Sign in</button></Link>
+                    <Link to="/login"><button className="btn btn-sm bg-orange-600 border-orange-600 text-white">Sign in</button></Link>
                 </div>
             </div>
         </>
