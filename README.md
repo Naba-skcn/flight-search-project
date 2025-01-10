@@ -1,6 +1,7 @@
 # Flight Search Project (TripVenture)
-# Live Link: (https://gilded-quokka-6e1ccf.netlify.app/)
-# Used API: (http://localhost:3001/flights)
+
+## Live Link: (https://gilded-quokka-6e1ccf.netlify.app/)
+## Used API: (http://localhost:3001/flights)
 
 ## Project Overview
 The Flight Search Project is a responsive web application that allows users to search for flights, view flight details, and filter flights based on preferences like price range, class, airline, and transit amount. The app features an interactive UI for a seamless experience.
