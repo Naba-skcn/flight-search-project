@@ -1,0 +1,124 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "flightNumber": "AA101",
+      "airline": "American Airlines",
+      "from": "CGK",
+      "to": "HAN",
+      "departureTime": "2025-01-10T10:00:00",
+      "arrivalTime": "2025-01-10T14:00:00",
+      "transitAmount": "Non-Transit",
+      "priceRange": "$200-$300",
+      "flightClass": "Economy"
+    },
+    {
+      "id": 2,
+      "flightNumber": "BA202",
+      "airline": "British Airways",
+      "from": "CGK",
+      "to": "SIN",
+      "departureTime": "2025-01-11T08:00:00",
+      "arrivalTime": "2025-01-11T12:00:00",
+      "transitAmount": "1 stop",
+      "priceRange": "$150-$250",
+      "flightClass": "Business"
+    },
+    {
+      "id": 3,
+      "flightNumber": "GA303",
+      "airline": "Garuda Indonesia",
+      "from": "CGK",
+      "to": "KUL",
+      "departureTime": "2025-01-12T14:00:00",
+      "arrivalTime": "2025-01-12T16:00:00",
+      "transitAmount": "Non-Transit",
+      "priceRange": "$100-$200",
+      "flightClass": "Economy"
+    },
+    {
+      "id": 4,
+      "flightNumber": "SQ404",
+      "airline": "Singapore Airlines",
+      "from": "CGK",
+      "to": "BKK",
+      "departureTime": "2025-01-13T09:00:00",
+      "arrivalTime": "2025-01-13T11:00:00",
+      "transitAmount": "Non-Transit",
+      "priceRange": "$250-$350",
+      "flightClass": "First Class"
+    },
+    {
+      "id": 5,
+      "flightNumber": "QF505",
+      "airline": "Qantas",
+      "from": "CGK",
+      "to": "SYD",
+      "departureTime": "2025-01-14T07:00:00",
+      "arrivalTime": "2025-01-14T17:00:00",
+      "transitAmount": "2 stop",
+      "priceRange": "$500-$700",
+      "flightClass": "Private"
+    },
+    {
+      "id": 6,
+      "flightNumber": "LH606",
+      "airline": "Lufthansa",
+      "from": "CGK",
+      "to": "FRA",
+      "departureTime": "2025-01-15T10:00:00",
+      "arrivalTime": "2025-01-15T18:00:00",
+      "transitAmount": "1 stop",
+      "priceRange": "$600-$800",
+      "flightClass": "Business"
+    },
+    {
+      "id": 7,
+      "flightNumber": "CX707",
+      "airline": "Cathay Pacific",
+      "from": "CGK",
+      "to": "HKG",
+      "departureTime": "2025-01-16T06:00:00",
+      "arrivalTime": "2025-01-16T12:00:00",
+      "transitAmount": "Non-Transit",
+      "priceRange": "$300-$400",
+      "flightClass": "Economy"
+    },
+    {
+      "id": 8,
+      "flightNumber": "UA808",
+      "airline": "United Airlines",
+      "from": "CGK",
+      "to": "LAX",
+      "departureTime": "2025-01-17T20:00:00",
+      "arrivalTime": "2025-01-18T06:00:00",
+      "transitAmount": "1 stop",
+      "priceRange": "$900-$1200",
+      "flightClass": "First Class"
+    },
+    {
+      "id": 9,
+      "flightNumber": "EK909",
+      "airline": "Emirates",
+      "from": "CGK",
+      "to": "DXB",
+      "departureTime": "2025-01-18T11:00:00",
+      "arrivalTime": "2025-01-18T17:00:00",
+      "transitAmount": "Non-Transit",
+      "priceRange": "$400-$500",
+      "flightClass": "Business"
+    },
+    {
+      "id": 10,
+      "flightNumber": "QR010",
+      "airline": "Qatar Airways",
+      "from": "CGK",
+      "to": "DOH",
+      "departureTime": "2025-01-19T01:00:00",
+      "arrivalTime": "2025-01-19T07:00:00",
+      "transitAmount": "1 stop",
+      "priceRange": "$300-$600",
+      "flightClass": "Economy"
+    }
+  ]
+}
